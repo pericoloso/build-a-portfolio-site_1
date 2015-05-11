@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mijn Portfolio</title>
+    <meta charset="utf-8">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-6 header_logo"><img class="img-responsive" alt="placeholder 100x100" src="img/ninja.png"></div>
+            <div class="col-md-6 header_name text-right text-uppercase">
+                <h1 class="text-thin">Ismail Daif</h1>
+                <h3>Front-end Ninja</h3>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <img class="img-responsive" alt="Cover" src="img/cover.png">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive" alt="Online Resume" src="img/online_resume.png" data-toggle="modal" data-target="#project2">
+                <h3>Online Resume</h3>
+                <p><a href="http://github.com/pericoloso/online-resume" target="blank">GitHub repository</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" alt="Classic Arcade Game Clone" src="img/arcade_game.png" data-toggle="modal" data-target="#project3">
+                <h3>Classic Arcade Game Clone</h3>
+                <p><a href="http://github.com/pericoloso/classic-arcade-game-clone" target="blank">GitHub repository</a></p>
+            </div>
+                <div class="col-md-4">
+                <img class="img-responsive" alt="Website Optimization" src="img/website_optimization.png" data-toggle="modal" data-target="#project4">
+                <h3>Website Optimization</h3>
+                <p><a href="http://github.com/pericoloso/website-optimization" target="blank">GitHub repository</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="proj2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="proj2">Project 2 - Online Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" alt="Online Resume" src="img/online_resume.png">
+                    <br />Working on this project will improve my mastery of JavaScript's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. I'll be required to write clean code and to apply my knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="proj3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="proj3">Project 3 - Classic Arcade Game Clone</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" alt="Arcade Game" src="img/arcade_game.png">
+                    <br />I will be provided with visual assets and a game loop engine; using these tools I must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="proj4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="proj4">Project 4 - Website Optimization</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" alt="Website Optimization" src="img/website_optimization.png">
+                    <br />I will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
